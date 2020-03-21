@@ -23,6 +23,8 @@ class ServerMiddleware:
         cursor = self.db.cursor()
         cursor.execute(sql, val)
         encrypted_variable = cursor.fetchone()
+        if encrypted_variable is None:
+            return None
         ope_cipher = encrypted_variable[1]
         he_cipher = int(encrypted_variable[2])
         return name, ope_cipher, he_cipher

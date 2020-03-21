@@ -15,6 +15,8 @@ class ClientMiddleware:
 
     def get_variable(self, name):
         encrypted_variable = self.server.get_encrypted_variable(name)
+        if encrypted_variable is None:
+            return None
         value = ope_decrypt(encrypted_variable[1])
         variable = (name, value)
         return variable

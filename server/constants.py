@@ -1,4 +1,4 @@
 HOST = "localhost"
 USER = "root"
 PASSWD = ""
-DATABASE = "CloudPOC"
+DATABASE = "cloud_poc"

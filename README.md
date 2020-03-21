@@ -1,4 +1,4 @@
-# Preuve de concept - Confidentialité des données dans le Cloud
+# Preuve de concept - Confidentialité des données sur le Cloud
 
 Timothé ALBOUY & Youssef EL HOR
 INFO2
