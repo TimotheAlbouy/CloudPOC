@@ -1,6 +1,6 @@
 from client.crypto import ope_encrypt, he_encrypt, ope_decrypt, he_decrypt
 from client.constants import HE_PUBLIC_KEY
-from server.server_middleware import ServerMiddleware
+from server.middleware import ServerMiddleware
 
 
 class ClientMiddleware:

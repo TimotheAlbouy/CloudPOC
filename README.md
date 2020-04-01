@@ -67,3 +67,8 @@ données avec les résultats qu'on a obtenus.
 - Enfin on supprime toutes les variables créées dans ce scénario. L'intergiciel côté client appelle juste une fonction
 de l'intergiciel côté serveur en passant en paramètre le nom de la variable à supprimer et celui-ci la supprime de la
 base de données.
+
+## Notes pour l'utilisation
+
+Pour lancer le scénario sur votre ordinateur, vous devez modifier les constantes de connexion à MySQL que sont l'hôte,
+le port et le nom de la base de données dans le fichier `server/constants.py`.

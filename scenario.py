@@ -1,4 +1,4 @@
-from client.client_middleware import ClientMiddleware
+from client.middleware import ClientMiddleware
 
 client = ClientMiddleware()
 
