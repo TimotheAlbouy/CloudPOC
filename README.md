@@ -13,7 +13,7 @@ Le package `client` contient le fichier `middleware.py` qui contient la classe r
 
 Le package `server` contient le fichier `middleware.py` qui contient la classe représentant l'intergiciel côté serveur, ainsi qu'un fichier `constants.py` qui contient les informations de connection à la base de données MySQL, et enfin le fichier `crypto.py` qui contient une fonction pour additionner des chiffrés en HE.
 
-Le répertoire `db` contient le script de création de tables et celui de dump de la base de données. On peut y voir qu'on crée une table `encrypted_variable` qui contient une colonne `name` (le nom de la variable, qui est clé primaire), une colonne `ope_cipher` (qui est la valeur de la variable chiffrée en OPE) et une colonne `he_cipher` (qui est la valeur de la variable chiffrée en HE).
+Le répertoire `db` contient le script de création de tables et celui de dump de la base de données. On peut y voir qu'on crée une table `encrypted_variable` qui contient une colonne `name` (le nom de la variable, qui est clé primaire), une colonne `ope_cipher` (la valeur de la variable chiffrée en OPE) et une colonne `he_cipher` (la valeur de la variable chiffrée en HE).
 
 Le fichier `scenario.py` contient le code d'un scénario utilisateur qui se déroule comme suit :
 
