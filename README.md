@@ -9,7 +9,7 @@ La solution à cette problématique est de se tourner vers des algorithmes crypt
 
 Nous avons fait une preuve de concept de ce principe en Python. Pour faire de l'OPE, nous avons utilisé la librairie [pyope de tonyo](https://github.com/tonyo/pyope). Pour faire de l'HE, nous avons utilisé la librairie [phe de data61](https://github.com/data61/python-paillier). Pour se connecter à la base de données MySQL, nous avons utilisé la librairie [MySQL Connector](https://github.com/mysql/mysql-connector-python).
  
-Le package `client` contient le fichier `middleware.py` qui contient la classe représentant l'intergiciel côté client, ainsi qu'un fichier `constants.py` qui contient les clés cryptographiques, et enfin le fichier `crypto.py` qui contient les fonctions de chiffrement et déchiffrement.
+Le package `client` contient le fichier `middleware.py` qui contient la classe représentant l'intergiciel côté client, ainsi qu'un fichier `constants.py` qui contient les clés cryptographiques, et enfin le fichier `crypto.py` qui contient les fonctions de chiffrement et déchiffrement en OPE et HE.
 
 Le package `server` contient le fichier `middleware.py` qui contient la classe représentant l'intergiciel côté serveur, ainsi qu'un fichier `constants.py` qui contient les informations de connection à la base de données MySQL, et enfin le fichier `crypto.py` qui contient une fonction pour additionner des chiffrés en HE.
 
