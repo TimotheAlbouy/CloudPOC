@@ -1,7 +1,6 @@
 # Preuve de concept - Confidentialité des données sur le Cloud
 
-Timothé ALBOUY & Youssef EL HOR
-INFO2
+Timothé ALBOUY
 
 Aujourd'hui, une part de plus en plus importante de nos données personnelles est stockée sur le cloud. Il est donc légitime de vouloir protéger ces données de personnes malveillantes qui auraient accès aux serveurs cloud et qui pourraient les lire sans restriction. On pourrait donc penser qu'il suffit de chiffrer ces données avec des clés qu'on garde secrètes avant de les envoyer sur les serveurs, mais cela enlèverait un autre gros avantage du cloud (à part sa capacité de stockage), qui est sa grande puissance de calcul. En effet, on ne pourrait plus effectuer d'opérations comme des additions ou des comparaisons sur des données chiffrées avec des algorithmes classiques comme Triple DES ou AES.
 
